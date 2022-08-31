@@ -1,1 +1,0 @@
-ini anips bin smith
