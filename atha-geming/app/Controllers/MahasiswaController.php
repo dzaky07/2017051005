@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\mahasiswa;
 
-class Pages extends BaseController
+class MahasiswaController extends BaseController
 {
     public function index()
     {
@@ -33,7 +33,15 @@ class Pages extends BaseController
             'mahasiswa' => $mahasiswa
         ];
         return view('templates/header', $data)
-            . view('pages/mahasiswa', $data)
+            . view('mahasiswa/list', $data)
+            . view('templates/footer');
+    }
+    public function create(){
+        $data = [
+            'title' => 'Create Mahasiswa'
+        ];
+        return view('templates/header', $data)
+            . view('mahasiswa/create', $data)
             . view('templates/footer');
     }
 }

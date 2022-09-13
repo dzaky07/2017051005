@@ -9,7 +9,7 @@ class Mahasiswa extends Seeder
 {
     public function run()
     {
-        $data = [
+        $data_mahasiswa = [
             [
                 'npm' => '2017051005',
                 'nama'    => 'M. Dzaky Fadhil Athaya',
