@@ -1,6 +1,7 @@
+<?= $this->extend('templates/template');?>
+<?= $this->section('content');?>
+
 <div class="p-4">
-
-
 
 <form action="/store" method="POST">
 
@@ -19,3 +20,4 @@
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </div>
+<?= $this->endSection();?>

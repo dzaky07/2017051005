@@ -1,3 +1,6 @@
+<?= $this->extend('templates/template');?>
+<?= $this->section('content');?>
+
 <div class="p-4">
 
     <a href="/create" type="button" class="btn btn-primary">Tambah Data</a>
@@ -36,3 +39,4 @@
         </tbody>
     </table>
 </div>
+<?= $this->endSection();?>

@@ -15,5 +15,5 @@ class Mahasiswa extends Model
     protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
-    protected $updatedField  = 'update_at';
+   // protected $updatedField  = 'update_at';
 }
